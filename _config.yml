@@ -229,7 +229,8 @@ compress_html:
   ignore:
     envs: development
     
-  defaults:
+# Defaults
+defaults:
   # _posts
   - scope:
       path: ""
@@ -241,3 +242,22 @@ compress_html:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
