@@ -59,7 +59,7 @@ Our strategy is to create a custom function that we will be able to call in a ce
 
 Without further ado...
 
-~~~ Javascript
+``` Javascript
 function pageSpeedInsights(url,device,filter_third_party_resources,http_secure) {
 
   url = url || 'www.statsravingmad.com'; // if no url is passed as argument you will get my score :)
@@ -107,7 +107,7 @@ function pageSpeedInsights(url,device,filter_third_party_resources,http_secure) 
 
       return(score);
     }
-~~~
+```
 
 # Create the Monitoring Sheet
 
@@ -133,7 +133,7 @@ For the first bullet we can set a trigger to run the `pageSpeedInsights` functio
 
 Next, we can use the following function to create the email body and (most important) the attached pdf of the report. The core apps to use are `DriveApp` and the `MailApp`
 
-~~~ Javascript
+``` Javascript
     function spreadsheetToPDF(){
 
       var key = 'YOUR SPREADSHEET ID';  //docid
@@ -186,11 +186,11 @@ Next, we can use the following function to create the email body and (most impor
         });
 
       }
-~~~
+```
 
 In order to make it look better we can create a menu item to give access to users of the Sheet to email the report with a click. Creating a menu tab is simple and straightforward ;  we need to declare a name and a `functionName` to attach to the `name`.
 
-~~~ Javascript
+``` Javascript
 function onOpen() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet();
   var entries = [{
@@ -202,7 +202,7 @@ function onOpen() {
     ];
     sheet.addMenu("Page Speed Insights", entries);
   };
-~~~
+```
 
 Now, the flow `Page Speed Insights > Email report` will sent the email as a pdf to the predefined recipients, along a link to the shared folder with previous reports.
 
