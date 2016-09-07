@@ -17,15 +17,7 @@ published: true
 share: true
 ---
 
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3>Overview</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
+{% include toc title="Unique Title" icon="file-text" %}
 
 *You can get the code of post and a bit more at Github : <a href="https://github.com/IronistM/R_Google_Analytics_Doc" title="R_Google_Analytics_Doc" target="_blank">R_Google_Analytics_Doc</a>*
 
