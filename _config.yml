@@ -72,7 +72,7 @@ social:
 analytics:
   provider               : "google-universal"
   google:
-    tracking_id          : UA-24046704-1
+    tracking_id          : "UA-24046704-1"
 
 
 # Site Author
@@ -228,3 +228,16 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
+    defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
