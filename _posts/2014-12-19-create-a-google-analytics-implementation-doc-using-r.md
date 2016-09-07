@@ -1,10 +1,7 @@
 ---
 title: Create a Google Analytics implementation doc using R
 author: manos_parzakonis
-layout: post
-permalink: "/create-a-google-analytics-implementation-doc-using-r/"
 excerpt: A post on how to fast document the setting of your GA properties
-comments: true
 categories:
   - measure
 tags:
@@ -13,8 +10,6 @@ tags:
   - excel
   - google
   - R
-published: true
-share: true
 ---
 
 {% include toc title="Unique Title" icon="file-text" %}
