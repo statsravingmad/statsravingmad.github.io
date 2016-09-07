@@ -1,17 +1,15 @@
 ---
 title: Automate Heroku PostgreSQL backups and downloads
 author: manos_parzakonis
-excerpt: 
+excerpt: Bash script to schedule and download heroku postgres database
 comments: true
 categories:
-- measure
+- automation
 tags:
-- analytics
-- insights
-- API
-- google apps
-- google sheets
-- speed
+- bash
+- script
+- heroku
+- postgres
 
 ---
 
