@@ -2,7 +2,6 @@
 title: RFM Using Google Analytics
 author: manos_parzakonis
 layout: post
-permalink: "/google-analytics-rfm/"
 excerpt: A post on how to start using classic marketing tactics on your Digital Analytics Powerhouse
 comments: true
 categories:
@@ -16,15 +15,7 @@ tags:
 published: true
 ---
 
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3>Overview</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
+{% include toc title="Unique Title" icon="file-text" %}
 
 Google Analytics is no more a tool for measuring hits, as of this announcement ([Remarketing audiences in Google Analytics](https://support.google.com/analytics/answer/2611268)) 2 years ago. It is a Marketing tool that marketeers with little sense can utilize to gain a lot and make their campaigns work-flow smarter and more effective!
 
