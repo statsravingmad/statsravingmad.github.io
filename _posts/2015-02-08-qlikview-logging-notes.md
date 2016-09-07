@@ -1,9 +1,9 @@
 ---
 title: Notes on custom script execution logging with QlikView
-author: manos_parzakonis
-layout: post
+
+
 excerpt: My notes on enabling script execution logging in QlikView scripting
-comments: true
+
 categories: 
   - measure
 tags: 
@@ -11,7 +11,7 @@ tags:
   - logs
   - script
   - notes
-published: true
+
 ---
 
 
