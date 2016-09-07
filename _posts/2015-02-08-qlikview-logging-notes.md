@@ -14,6 +14,7 @@ tags:
 
 ---
 
+{% include toc title="Unique Title" icon="file-text" %}
 
 ## The Problem
 One problem we have with the apps and the synchronizers is that we don't have controlled
