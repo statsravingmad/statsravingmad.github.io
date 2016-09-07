@@ -2,7 +2,6 @@
 title: Notes on custom script execution logging with QlikView
 author: manos_parzakonis
 layout: post
-permalink: "/qlikview-logging-script-note/"
 excerpt: My notes on enabling script execution logging in QlikView scripting
 comments: true
 categories: 
