@@ -15,16 +15,6 @@ tags:
 ---
 
 
-<section id="table-of-contents" class="toc">
-<header>
-<h3>Overview</h3>
-</header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
-
 ## The Problem
 One problem we have with the apps and the synchronizers is that we don't have controlled
 logging in order to evaluate the performance. This is an issue that surfaces quite often when investigating various issues (*examples-go-here*). We can add some data points towards solving such issues by adding calls into our scripts
