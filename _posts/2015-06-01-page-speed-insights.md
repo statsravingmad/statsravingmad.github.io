@@ -1,8 +1,6 @@
 ---
 title: Monitor your Page Speed Insights score using Google Sheets
 author: manos_parzakonis
-layout: post
-permalink: "/pages-speed-insights-monitoring/"
 excerpt: A custom function to query Google's Page Speed Insight API.
 comments: true
 categories:
@@ -15,18 +13,9 @@ tags:
 - google sheets
 - speed
 
-published: true
 ---
 
-<section id="table-of-contents" class="toc">
-<header>
-<h3>Overview</h3>
-</header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
+{% include toc title="Unique Title" icon="file-text" %}
 
 In a previous [post](http://statsravingmad.com/a-roll-up-google-analytics-dashboard-using-google-sheets-apps-script/) we have shown how we can create a Google Analytics dashboard
 using Google Sheets. In this post we will create a simple dashboard to monitor the page speed insights score as this is provided by Google's service. The end deliverable will include the option of sending an email to the developer team bench marking our performance to other competitors and similar size sites.
