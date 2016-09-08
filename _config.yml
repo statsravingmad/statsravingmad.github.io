@@ -70,9 +70,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "custom-analytics"
+  provider               : "custom"
   google:
-    tracking_id          : "UA-24046704-1"
+    tracking_id          : # "UA-24046704-1"
 
 
 # Site Author
