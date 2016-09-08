@@ -1,8 +1,6 @@
 ---
 title: 'A Roll-up GA dashboard using Google Sheets &#038; Apps Script'
 author: manos_parzakonis
-layout: post
-permalink: /a-roll-up-google-analytics-dashboard-using-google-sheets-apps-script/
 excerpt: "Create a dashboard for your various accounts!"
 categories:
   - Digital Life
