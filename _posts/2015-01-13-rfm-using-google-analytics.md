@@ -1,9 +1,7 @@
 ---
 title: RFM Using Google Analytics
 author: manos_parzakonis
-layout: post
 excerpt: A post on how to start using classic marketing tactics on your Digital Analytics Powerhouse
-comments: true
 categories:
   - measure
 tags:
@@ -12,7 +10,6 @@ tags:
   - crm
   - google
   - R
-published: true
 ---
 
 {% include toc title="Unique Title" icon="file-text" %}
