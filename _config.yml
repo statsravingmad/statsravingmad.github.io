@@ -72,7 +72,7 @@ social:
 analytics:
   provider               : "custom"
   google:
-    tracking_id          : # "UA-24046704-1"
+    tracking_id          : 
 
 
 # Site Author
