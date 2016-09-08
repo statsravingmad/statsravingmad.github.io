@@ -70,7 +70,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal"
+  provider               : "custom-universal"
   google:
     tracking_id          : "UA-24046704-1"
 
